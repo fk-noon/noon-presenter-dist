@@ -4,10 +4,9 @@
 
 ### Generate and edit beautiful documents and decks with AI — locally, on your own Claude account.
 
-[![Latest release](https://img.shields.io/github/v/release/fk-noon/noon-presenter-dist?label=latest&color=6E56CF)](https://github.com/fk-noon/noon-presenter-dist/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/fk-noon/noon-presenter-dist/total?color=6E56CF)](https://github.com/fk-noon/noon-presenter-dist/releases/latest)
 ![macOS](https://img.shields.io/badge/macOS-Apple%20Silicon%20%26%20Intel-000?logo=apple&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-10%20%26%2011-0078D6?logo=windows&logoColor=white)
+![Access](https://img.shields.io/badge/access-invited%20collaborators-6E56CF)
 
 **[⬇️ Download the latest version](https://github.com/fk-noon/noon-presenter-dist/releases/latest)**
 
@@ -19,8 +18,8 @@
 
 It runs **entirely on your own machine** against **your own Claude account**. Nothing is hosted, no data leaves your computer except the calls to Claude, and there's no shared key to hand out.
 
-> [!NOTE]
-> This repository hosts the **downloadable installers and the auto‑update feed** only. The application source code lives in a private repository.
+> [!IMPORTANT]
+> **Access is limited to invited collaborators.** You're seeing this because you've been granted access — sign in to GitHub to download. This repository hosts the installers only; the application source code is private.
 
 ---
 
@@ -56,9 +55,15 @@ noon presenter uses **your** Claude account to do its work, so it needs a Claude
 
 The app reads your local Claude Code session; **no API key to copy or manage**. (Advanced users can set an `ANTHROPIC_API_KEY` instead.) If no sign‑in is found, the app shows a friendly prompt with a link to get set up.
 
-## 🔄 Updates are automatic
+## 🔄 Getting new versions
 
-Install once. When a new version ships, the app **downloads it in the background** and offers a **"Restart to update"** prompt the next time you open it. You never have to come back here to re‑download.
+When a new version ships, you'll be told where to grab it. To update:
+
+1. Come back to the **[Releases page](https://github.com/fk-noon/noon-presenter-dist/releases/latest)** and download the newest installer.
+2. **macOS:** open the `.dmg` and drag **noon presenter** into Applications, replacing the old one. **Windows:** run the new installer.
+3. Your documents and settings are kept — they live in your user folder, not inside the app.
+
+> Because access is restricted to invited collaborators, the app does **not** auto‑update — that's deliberate. Grabbing the latest from the Releases page takes a few seconds.
 
 ---
 
@@ -94,5 +99,5 @@ noon presenter is a small local application: it runs a server on your own machin
 ---
 
 <div align="center">
-<sub>Built with <a href="https://www.anthropic.com/claude">Claude</a> · macOS builds are signed &amp; notarized by Apple · Auto‑updates via GitHub Releases</sub>
+<sub>Built with <a href="https://www.anthropic.com/claude">Claude</a> · macOS builds are signed &amp; notarized by Apple · Private distribution for invited collaborators</sub>
 </div>
